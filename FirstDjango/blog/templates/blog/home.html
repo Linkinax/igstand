@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+{% if title%}
+<title> Django blog - {{title}}</title>
+{% else %}
+
+<title>Django blog </title>
+
+{% endif %}
+</head>
+
+<body>
+       <h1>Blog Home fucker</h1>
+
+       {% for post in posts%}
+        <h1>{{post.titile}}</h1>
+        <p>By  {{post.author}}</p>
+        <p>By  {{post.content}}</p>
+       {% endfor %}
+</body>
+
+
+</html>
