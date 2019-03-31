@@ -37,34 +37,35 @@ def salvaEmail(email):
 
 def mecsd():
     browser = webdriver.Firefox(
-        executable_path='/home/alex/Documents/Coder/geckodriver')
-    browser.get('http://www.mecspe.com/it/catalogo-online-espositori/espositori/')
+    executable_path='/home/alex/Documents/igstand/geckodriver')
+    #browser.get('http://www.mecspe.com/it/catalogo-online-espositori/espositori/')
 
     #table =browser.find_elements_by_id("exhibitors_table")
     #nomi = table[0].find_elements_by_tag_name("a")
     #print(len(nomi))
     #looppagine
-    for i in range(2,102):
-    	browser.get('http://www.mecspe.com/it/catalogo-online-espositori/espositori/'+ str(i)+"/")
-    	print("i= \t %s" %(str(i)))
-    	for k in range(20):
-        	sleep(1)
-        	table =browser.find_elements_by_id("exhibitors_table")
-        	print(len(table))
-        	nomi = table[0].find_elements_by_tag_name("a")
-       		nomi[k].click()
-        	print("k:\t %s\n" %(str(k)))
-        	sleep(1)
-        	try:
-        		li=browser.find_elements_by_tag_name("li")
-        		for k in li:
-					if "@" in k.text:
-						salvaEmail(k.text.replace("Email: ", ""))
-        	except IndexError:
-        		print("\nErrorino \n")
-			sleep(1)
-			browser.back()
-			sleep(1)
+    for i in range(5,102):
+        browser.get('http://www.mecspe.com/it/catalogo-online-espositori/espositori/'+ str(i)+"/")
+        print("i= \t %s" %(str(i)))
+        sleep(2)
+        for k in range(20):
+            sleep(1)
+            table =browser.find_elements_by_id("exhibitors_table")[0]
+        	#print(len(table))
+            sleep(2)
+            nomi = table.find_elements_by_tag_name("a")
+            nomi[k].click()
+            print("k:\t %s\n" %(str(k)))
+            sleep(1)
+            try:
+                li=browser.find_elements_by_tag_name("li")
+                for k in li:
+                    if "@" in k.text:
+                        salvaEmail(k.text.replace("Email: ", ""))
+            except IndexError:
+                print("\nErrorino \n")
+            browser.back()
+            sleep(1)
 
 if __name__ == "__main__":
     mecsd()
