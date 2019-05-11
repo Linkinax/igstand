@@ -1,0 +1,115 @@
+1554035774928	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZECXAgsxHEr2"
+
+(firefox-esr:5491): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:5547): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554035781535	Marionette	INFO	Listening on port 46489
+1554035781550	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox-esr/firefox-esr:5601): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554035876545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vDH7XULHoLNP"
+
+(firefox-esr:5964): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:6020): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554035877731	Marionette	INFO	Listening on port 32953
+1554035877751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554035922331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SDMjhcV2dKxA"
+
+(firefox-esr:6135): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:6191): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554035923516	Marionette	INFO	Listening on port 38935
+1554035923537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554035994111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JJvTDeElPtFJ"
+
+(firefox-esr:6310): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:6366): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554035995335	Marionette	INFO	Listening on port 36277
+1554035995428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554036028212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.V54VLBbvkHg7"
+
+(firefox-esr:6484): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:6585): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554036029371	Marionette	INFO	Listening on port 39339
+1554036029421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554036191529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bocQE4foO8aS"
+
+(firefox-esr:6941): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:6997): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554036192678	Marionette	INFO	Listening on port 43595
+1554036192735	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox-esr/firefox-esr:7060): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+console.log: Accessibility service init or shutdown observer does not exist.
+1554036279501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EfRAYB1MxoYb"
+
+(firefox-esr:7162): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:7223): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554036280677	Marionette	INFO	Listening on port 43883
+1554036280712	Marionette	WARN	TLS certificate errors will be ignored for this session
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+7320
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1554036292696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nwKffUYHIrvr"
+
+(firefox-esr:7337): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:7395): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554036293886	Marionette	INFO	Listening on port 37383
+1554036293905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 57: TypeError: window is null
+ExceptionHandler::GenerateDump cloned child 7510ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1554036342983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mOGpGZSl8ORB"
+
+(firefox-esr:7568): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:7624): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554036344136	Marionette	INFO	Listening on port 36977
+1554036344197	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+1554037120436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Msgu3Yy6uRmu"
+
+(firefox-esr:5166): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:5222): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554037127088	Marionette	INFO	Listening on port 39345
+1554037127170	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554037227200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cId26FlVsJNz"
+
+(firefox-esr:5457): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:5513): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554037228361	Marionette	INFO	Listening on port 41455
+1554037228418	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.log: Accessibility service init or shutdown observer does not exist.
+1554037555869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fG52rC4YzHPV"
+
+(firefox-esr:5877): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+
+(/usr/lib/firefox-esr/firefox-esr:5938): Gtk-WARNING **: Theme parsing error: gtk.css:3611:22: 'none' is not a valid color name
+1554037557042	Marionette	INFO	Listening on port 39257
+1554037557079	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5877, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-esr-JxmfqN/firefox-esr-60.4.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5877, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-esr-JxmfqN/firefox-esr-60.4.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.log: Accessibility service init or shutdown observer does not exist.
